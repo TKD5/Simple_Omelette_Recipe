@@ -1,0 +1,135 @@
+ .attribution { 
+    font-size: 0.6875rem; text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color:  #f3e6d9;
+}
+
+.recipe-container {
+    width: 600px;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 2em;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+h1 {
+    font-family: "Young serif";
+    font-weight: 200;
+    color: #31302f;
+}
+h2 {
+    font-family: "Young serif";
+    font-weight: 200;
+    color: #814738;
+}
+
+.prep-section {
+    background-color: #fff7fc;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.prep-section li {
+    margin-bottom: 0 15px;
+}
+
+.prep-title {
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+}
+
+.ingredients-section li{
+    margin-bottom: 15px;
+}
+.instructions-section li{
+    margin-bottom: 15px;
+}
+
+table{
+    display: block;
+    flex-direction: column;
+    width: 100%;
+}
+tbody {
+    display: block;
+    width: 100%;
+}
+.table-row {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 12px 40px;
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+.table-title {
+   font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+.table-info {
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: #814738;
+;
+}
+.table-row:last-child {
+    border-bottom: none;
+}
+
+hr {
+    background-color: hsla(32, 10%, 34%, 0.456);
+}
+
+/*Media Queries*/
+
+@media (max-width: 650px) {
+    body {
+        background-color: white;
+        margin: 0;
+    }
+    p{
+        width: 80%;
+    }
+
+    hr {
+        width: 90%;
+        margin: auto 0;
+    }
+    .recipe-container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        border-radius: 0;
+        padding: 1.5rem;
+    }
+
+    .prep-section, .instructions-section, table {
+        width: 80%;
+    }
+
+    img {
+        border-radius: 0;
+        margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+        width: calc(100% + 3em);
+    }
+
+    .table-row {
+        padding: 12px 10px;
+    }
+} 
