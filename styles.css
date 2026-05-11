@@ -45,7 +45,7 @@ h2 {
 }
 
 .prep-section li {
-    margin-bottom: 0 15px;
+    margin-bottom: 15px;
 }
 
 .prep-title {
@@ -86,7 +86,6 @@ tbody {
     font-family: "Outfit", sans-serif;
     font-weight: 600;
     color: #814738;
-;
 }
 .table-row:last-child {
     border-bottom: none;
